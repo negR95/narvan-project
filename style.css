@@ -1,0 +1,40 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Yekan;
+  src: url(main/font/IRANYekanRegular.ttf);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome {
+  text-align: center;
+  font-family: Yekan;
+}
+
+.services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  font-family: Yekan;
+}
