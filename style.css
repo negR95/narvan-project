@@ -6,33 +6,64 @@
 
 @font-face {
   font-family: Yekan;
-  src: url(main/font/IRANYekanRegular.ttf);
+  src: url(resources/font/IRANYekanRegular.ttf);
+}
+
+@font-face {
+  font-family: Yekan;
+  src: url(resources/font/IRANYekanBold.ttf);
 }
 
 body {
   margin: 0;
   padding: 0;
+  background: #f6f6f6;
 }
 
 .container {
-
 }
 
 .logo {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 56px;
 }
 
 .welcome {
   text-align: center;
   font-family: Yekan;
+  margin-top: 20px;
+  font-size: 18px;
 }
 
 .services {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: row;
+  margin-top: 150px;
+  gap: 16px;
+}
+
+.card {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid #ebebeb;
+  border-radius: 16px;
+  background: #f2f2f2;
+  width: 192px;
+  height: 245px;
+}
+
+.card:hover {
+  width: 304px;
+  height: 413px;
+  border: none;
+  background: white;
 }
 
 p {
